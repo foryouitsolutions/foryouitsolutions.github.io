@@ -4713,7 +4713,8 @@ footer.colors-h a i:hover{
     background-color:rgba(100,122,156,.3)
 }
 .success{
-    background-color:rgba(198,237,181,.3)
+    background-color:rgba(198,237,181,.3);
+    text-align: center;
 }
 .info{
     background-color:rgba(185,224,244,.3)
