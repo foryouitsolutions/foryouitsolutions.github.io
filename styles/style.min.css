@@ -3280,6 +3280,9 @@ ul.simple li:before {
 #header .next::before{
     display: none;
 }
+.header .success{
+    text-align: center;
+}
 #header .row{
     width: 100%;
     padding: 0;
