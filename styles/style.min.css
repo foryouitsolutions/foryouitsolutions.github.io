@@ -2679,7 +2679,9 @@ html.mobile video.bg {
     -ms-transition: all .5s ease 0s;
     -o-transition: all .5s ease 0s;
     transition: all .5s ease 0s;
-    mix-blend-mode: luminosity;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    border: 2px solid #deb070;
 }
 .android-browser-4_3minus .hover-overlay img {
     transition: none;
