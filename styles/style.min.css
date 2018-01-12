@@ -2683,6 +2683,9 @@ html.mobile video.bg {
     mix-blend-mode: difference;
     border: 2px solid #deb070;
 }
+.team-soc{
+    margin: 0 10px;
+}
 .android-browser-4_3minus .hover-overlay img {
     transition: none;
     -webkit-transition: none
