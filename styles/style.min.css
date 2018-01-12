@@ -2679,8 +2679,11 @@ html.mobile video.bg {
     -ms-transition: all .5s ease 0s;
     -o-transition: all .5s ease 0s;
     transition: all .5s ease 0s;
-    border-radius: 50%;
     mix-blend-mode: difference;
+    
+}
+.teamImg img{
+    border-radius: 50%;
     border: 2px solid #deb070;
 }
 .team-soc{
