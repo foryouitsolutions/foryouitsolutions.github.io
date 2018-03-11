@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,500,600,300,200,100,800,900);
+@import url('https://fonts.googleapis.com/css?family=Monoton');
 body,
 html {
     width: 100%;
@@ -183,6 +184,9 @@ input.button {
     -o-transition: all .3s;
     transition: all .3s
 }
+.logo{
+    width: 160px;
+}
 .android-browser-4_3minus input.button {
     transition: none;
     -webkit-transition: none
@@ -285,7 +289,13 @@ textarea {
 #top-nav .nav>li>a,
 #top-nav .navbar-brand {
     padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 10px;
+    
+}
+.main-text{
+    font-family: 'Monoton', cursive;
+    font-weight: normal!important;
+    font-size:60px !important;
 }
 #top-nav .dropdown-menu>li>a {
     font-weight: 800
@@ -303,7 +313,26 @@ textarea {
     #top-nav li a {
         padding: 18px 8px
     }
+    .logo{
+        width: 90px;
+    }
+    .navbar-header{
+        width:15%;
+    }
+    .teamImg{
+        text-align: center
+    }
+    .teamImg img {
+        width: 240px;
+    }
 }
+@media (max-width: 768px){
+    
+    .logo{
+        width: 110px;
+    }
+}
+
 @media (max-width: 1199px) {
     #top-nav li {
         font-size: 10px
@@ -3931,6 +3960,9 @@ p {
     .home-lynda h1 {
         font-size: 60px;
         line-height: 60px
+    }
+    .main-text{
+        font-size: 39px !important;
     }
 }
 @media (max-width: 767px) {
