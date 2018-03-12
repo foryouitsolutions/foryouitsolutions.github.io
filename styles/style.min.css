@@ -317,7 +317,7 @@ textarea {
         width: 90px;
     }
     .navbar-header{
-        /* width:15%; */
+        width:15%;
     }
     .teamImg{
         text-align: center
@@ -326,12 +326,15 @@ textarea {
         width: 240px;
     }
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
     .teamImg img {
          width: 100%;
     }
     .logo{
         width: 110px;
+    }
+    .navbar-header{
+        width:auto;
     }
 }
 
