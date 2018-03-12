@@ -327,7 +327,9 @@ textarea {
     }
 }
 @media (max-width: 768px){
-    
+    .teamImg img {
+         width: 100%;
+    }
     .logo{
         width: 110px;
     }
