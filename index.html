@@ -28,24 +28,14 @@
       <link rel="stylesheet" href="lib/linecons/style.css" />
       <link rel="stylesheet" href="styles/style.min.css" />
       <link rel="stylesheet" href="theme-custom.css" />
-      <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
-      <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
-      <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
-      <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
-      <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-      <link rel="manifest" href="manifest.json">
-      <meta name="msapplication-TileColor" content="#ffffff">
-      <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="msapplication-TileColor" content="#da532c">
       <meta name="theme-color" content="#ffffff">
-      <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+      <link rel="manifest" href="manifest.json">
    </head>
    <body class="state1 background-100-e">
       <div class="ext-nav background-95-h page-transition">
@@ -105,7 +95,7 @@
       <nav class="navbar navbar-default navbar-fixed-top page-transition colors-e background-solid" role="navigation" id="top-nav">
          <div class="container">
             <div class="navbar-header">
-               <a class="menu-toggle ext-nav-toggle visible-xs-block" data-target=".ext-nav" href="#"><span></span></a>
+               <!-- <a class="menu-toggle ext-nav-toggle visible-xs-block" data-target=".ext-nav" href="#"><span></span></a> -->
                <a class="menu-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" href="#"><span></span></a>
                <a class="navbar-brand" href="#"><img src="logo.jpg" class="logo"></a>
             </div>
@@ -119,7 +109,7 @@
                   <li><a href="#work" class="hover-effect">Work</a></li>
                   <li><a href="#skills" class="hover-effect">Skills</a></li>
                   <li><a href="#contact" class="hover-effect">Contact</a></li>
-                  <li class="hidden-xs"><a class="menu-toggle ext-nav-toggle" data-target=".ext-nav" href="#"><span></span></a></li>
+                  <!-- <li class="hidden-xs"><a class="menu-toggle ext-nav-toggle" data-target=".ext-nav" href="#"><span></span></a></li> -->
                </ul>
             </div>
          </div>
@@ -127,16 +117,31 @@
       <ul id="dot-scroll" class="colors-e background-solid"></ul>
       <div class="overlay-window gallery-overlay colors-g background-95-g" data-overlay-zoom="#work .content">
          <div class="overlay-control background-90-b">
-            <a class="previos" href="#"></a>
-            <a class="next" href="#"></a>
+            <!-- <a class="previos" href="#"></a>
+            <a class="next" href="#"></a> -->
             <a class="cross" href="#"></a>
          </div>
-         <div class="overlay-view"></div>
+         <iframe src="http://beingfurnish.com/" style="width:100%;height:100vh"></iframe>
+         <!-- <div class="overlay-view"></div> -->
          <ul class="loader">
             <li class="background-highlight-e"></li>
             <li class="background-highlight-e"></li>
             <li class="background-highlight-e"></li>
          </ul>
+      </div>
+      <div class="overlay-window gallery-overlay colors-g background-95-g" data-overlay-zoom="#work .content">
+          <div class="overlay-control background-90-b">
+            <!-- <a class="previos" href="#"></a>
+            <a class="next" href="#"></a> -->
+            <a class="cross" href="#"></a>
+          </div>
+          <iframe src="http://skochvoting.tk" style="width:100%;height:100vh"></iframe>
+          <!-- <div class="overlay-view"></div> -->
+          <ul class="loader">
+            <li class="background-highlight-e"></li>
+            <li class="background-highlight-e"></li>
+            <li class="background-highlight-e"></li>
+          </ul>
       </div>
       <div class="overlay-window map-overlay colors-h background-75-h">
          <div class="overlay-control background-90-g">
@@ -295,7 +300,7 @@
                   <div class="row icon-set">
                      <div class="col-md-3 text-center">
                         <p>
-                           <i class="li_eye circle scroll-in-animation background-20 heading" data-animation="fadeInUp"></i>
+                           <i class="li_bulb circle scroll-in-animation background-20 heading" data-animation="fadeInUp"></i>
                         </p>
                         <p class="title"><span class="underline-text">Concept</span></p>
                         <p>Conceptualization phase in any project is the most important phase. It starts with gathering the information regarding the project from the client then comes the analyzation of the requirements, which is preceded by preparation of the process documents. After this, a dedicated team with resources required is been set-up. The conceptualization step ends with the completion of a document clearly stating the requirements upon which the client and the development team firmly agrees.</p>
@@ -568,19 +573,19 @@
                </div>
                <div class="gallery colors-h background-solid" data-default-group="all" data-overlay=".gallery-overlay">
                   <div class="container-fluid">
-                     <!-- <div class="filter">
+                     <div class="filter">
                         <ul class="nav nav-pills text-center">
                            <li><a class="hover-effect" data-group="all" href="#">All</a></li>
-                           <li><a class="hover-effect" data-group="web" href="#">Web</a></li>
-                           <li><a class="hover-effect" data-group="video" href="#">Video</a></li>
-                           <li><a class="hover-effect" data-group="photography" href="#">Photography</a></li>
-                           <li><a class="hover-effect" data-group="design" href="#">Design</a> </li>
+                           <li><a class="hover-effect" data-group="dynamic" href="#">Dyanamic Website</a></li>
+                           <li><a class="hover-effect" data-group="static" href="#">Static Website</a></li>
+                           <!-- <li><a class="hover-effect" data-group="photography" href="#">Photography</a></li>
+                           <li><a class="hover-effect" data-group="design" href="#">Design</a> </li> -->
                         </ul>
-                     </div> -->
+                     </div>
                      <div class="row">
                         <div class="grid">
-                           <div class="item col-md-4 col-sm-4 col-xs-6" data-groups='["design"]'>
-                              <a href="#!portfolio-item-1.html" class="hover-overlay">
+                           <div class="item col-md-4 col-sm-4 col-xs-6" data-groups='["static"]'>
+                              <a href="http://maheshpratap.000webhostapp.com/" class="hover-overlay">
                                  <img alt="Project 1" src="images/portfolio/preview/13.jpg" />
                                  <div class="overlay background-90-a">
                                     <div class="hidden-xs">
@@ -591,10 +596,10 @@
                                  </div>
                               </a>
                            </div>
-                           <div class="item col-md-4 col-sm-4 col-xs-6" data-groups='["photography", "web", "video"]'>
-                              <a href="#!portfolio-item-2.html" class="hover-overlay">
+                           <div class="item col-md-4 col-sm-4 col-xs-6" data-groups='["dynamic"]'>
+                              <a href="http://maheshpratap.tk/Janaab_Food/" class="hover-overlay">
                                  <img alt="Project 2" src="images/portfolio/preview/14.jpg" />
-                                 <div class="overlay background-90-a">
+                                 <div class="overlay background-90-b">
                                     <div class="hidden-xs">
                                        <p class="title heading-a">RESTAURANTS</p>
                                        <p class="text-center heading-a"><strong>LARGE SCALE WEB APP</strong></p>
@@ -603,10 +608,10 @@
                                  </div>
                               </a>
                            </div>
-                           <div class="item col-md-4 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
-                              <a href="#!portfolio-item-3.html" class="hover-overlay">
+                           <div class="item col-md-4 col-sm-4 col-xs-6" data-groups='["dynamic"]'>
+                              <a href="http://skochvoting.tk/user/" class="hover-overlay">
                                  <img alt="Project 3" src="images/portfolio/preview/15.jpg" />
-                                 <div class="overlay background-90-a">
+                                 <div class="overlay background-90-c">
                                     <div class="hidden-xs">
                                        <p class="title heading-a">SKOCH GROUP</p>
                                        <p class="text-center heading-a"><strong>LARGE SCALE WEB APP</strong></p>
@@ -615,19 +620,19 @@
                                  </div>
                               </a>
                            </div>
-                           <!-- <div class="item col-md-4 col-sm-4 col-xs-6" data-groups='["photography", "web", "video"]'>
-                              <a href="#!portfolio-item-4.html" class="hover-overlay">
-                                 <img alt="Project 4" src="images/portfolio/preview/4.jpg" />
-                                 <div class="overlay background-90-a">
+                            <div class="item col-md-4 col-sm-4 col-xs-6" data-groups='["static"]'>
+                              <a href="http://beingfurnish.com/" class="hover-overlay">
+                                 <img alt="Project 4" src="images/portfolio/preview/16.jpg" />
+                                 <div class="overlay background-90-d">
                                     <div class="hidden-xs">
-                                       <p class="title heading-a">Vimeo Video</p>
-                                       <p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
-                                       <p class="text-center"><i class="fa fa-vimeo-square heading-a"></i></p>
+                                       <p class="title heading-a">Being Furnished</p>
+                                       <p class="text-center heading-a"><strong>Static Wordpress based website</strong></p>
+                                       <p class="text-center"><i class="fa fa-wordpress heading-a"></i></p>
                                     </div>
                                  </div>
                               </a>
                            </div>
-                           <div class="item col-md-4 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
+                           <!--<div class="item col-md-4 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
                               <a href="#!portfolio-item-5.html" class="hover-overlay">
                                  <img alt="Project 5" src="images/portfolio/preview/5.jpg" />
                                  <div class="overlay background-90-a">

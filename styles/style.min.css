@@ -1037,14 +1037,14 @@ body {
     display: block;
     float: right;
     position: relative;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
-    margin: 25px
+    margin:8px 25px;
 }
 .android-browser-4_3minus .cross {
     transition: none;
@@ -1223,7 +1223,7 @@ body {
     -o-transform: rotate(45deg)
 }
 .overlay-control {
-    height: 90px
+    height: 40px
 }
 .carousel,
 .slider {
